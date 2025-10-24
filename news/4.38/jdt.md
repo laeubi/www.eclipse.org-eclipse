@@ -25,6 +25,27 @@ A special thanks to everyone who [contributed to JDT](acknowledgements.md#java-d
 ---
 ## Java Compiler
 
+### Improved Access Restriction Warnings for Inherited Methods
+<!-- https://github.com/eclipse-jdt/eclipse.jdt.core/pull/4293 -->
+<details>
+<summary>Contributors</summary>
+
+- [Christoph Laeubrich](https://github.com/laeubi)
+- [Stephan Herrmann](https://github.com/stephan-herrmann)
+</details>
+
+The Java compiler now handles access restriction warnings more intelligently when calling inherited methods.
+Previously, calling a public method on an accessible type would trigger an access restriction warning if that method was inherited from a restricted (non-API) parent class.
+
+With this improvement, the compiler recognizes that inherited public methods accessed through an accessible type are legal and do not require access to the restricted parent class.
+This behavior now aligns with both JPMS and OSGi semantics, where inherited public methods are accessible through the public subclass without requiring visibility to the parent class's package.
+
+For example, when `Server` (an accessible type) extends `AbstractLifeCycle` (from a restricted package), calling `server.stop()` no longer generates a warning, as the method is accessed through the inherited interface of the accessible `Server` type.
+Direct references to the restricted class still properly trigger access restriction warnings.
+
+This change improves the developer experience by eliminating confusing warnings for code that is correct and will execute without runtime errors.
+It makes access restrictions behave more intuitively - restrictions apply to types and packages, not to methods accessible through inheritance.
+
 ### Multi-Release JAR Compilation Support
 <!-- https://github.com/eclipse-jdt/eclipse.jdt.core/pull/3900 -->
 <!-- https://github.com/eclipse-jdt/eclipse.jdt.ui/pull/2260 -->
