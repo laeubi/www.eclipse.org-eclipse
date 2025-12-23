@@ -15,9 +15,9 @@ A special thanks to everyone who [contributed to Eclipse-Platform](acknowledgeme
 <details>
 <summary>Contributors</summary>
 
-- [Arun Jose ](https://github.com/arunjose696)
-- [Heiko Klare ](https://github.com/HeikoKlare)
-- [Michael Bangas ](https://github.com/Michael5601)
+- [Arun Jose](https://github.com/arunjose696)
+- [Heiko Klare](https://github.com/HeikoKlare)
+- [Michael Bangas](https://github.com/Michael5601)
 </details>
 
 A new `drawImage` method in `GC` allows drawing the **full image** into a specified destination rectangle:

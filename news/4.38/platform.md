@@ -70,7 +70,7 @@ These enhancements improve usability by making it easier to locate templates and
 <details>
 <summary>Contributors</summary>
 
-- [Sougandh S ](https://github.com/SougandhS)
+- [Sougandh S](https://github.com/SougandhS)
 </details>
 
 The `Console` view now lets you customize or disable the elapsed time shown in its title.
@@ -195,8 +195,8 @@ For more background information see also:
 <details>
 <summary>Contributors</summary>
 
-- [Sougandh S ](https://github.com/SougandhS)
-- [Andrey Loskutov ](https://github.com/iloveeclipse)
+- [Sougandh S](https://github.com/SougandhS)
+- [Andrey Loskutov](https://github.com/iloveeclipse)
 </details>
 
 A new safeguard has been added to help avoid confusion when debugging with breakpoints skipped.
