@@ -9,7 +9,7 @@ A special thanks to everyone who [contributed to PDE](acknowledgements.md#plug-i
 <details>
 <summary>Contributors</summary>
 
-- [Christoph Läubrich ](https://github.com/laeubi)
+- [Christoph Läubrich](https://github.com/laeubi)
 </details>
 
 PDE previously has created JUnit Plugin-test launches with some broad inclusion settings and defaults that do not always fit different project setups well.
@@ -33,7 +33,7 @@ or starting a [discussion](https://github.com/eclipse-pde/eclipse.pde/discussion
 <details>
 <summary>Contributors</summary>
 
-- [Christoph Läubrich ](https://github.com/laeubi)
+- [Christoph Läubrich](https://github.com/laeubi)
 </details>
 
 The [OSGi Testing Support](https://github.com/eclipse-osgi-technology/osgi-test#osgi-testing-support) is a great library for testing OSGi applications,
@@ -69,8 +69,8 @@ If you encounter issues or have suggestions don't hesitate to let us know by ope
 <details>
 <summary>Contributors</summary>
 
-- [Gireesh Punathil ](https://github.com/gireeshpunathil)
-- [Neha Burnwal ](https://github.com/nburnwal09)
+- [Gireesh Punathil](https://github.com/gireeshpunathil)
+- [Neha Burnwal](https://github.com/nburnwal09)
 
 </details>
 

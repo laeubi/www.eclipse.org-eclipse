@@ -11,7 +11,7 @@ A special thanks to everyone who [contributed to JDT](acknowledgements.md#java-d
 ---
 ## JUnit
 
-### Eclipse support for JUnit 6.0.1
+### Eclipse Support for JUnit 6.0.1
 <!-- https://github.com/eclipse-jdt/eclipse.jdt/issues/147 -->
 <details>
 <summary>Contributors</summary>

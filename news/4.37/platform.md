@@ -35,7 +35,7 @@ A special thanks to everyone who [contributed to Eclipse-Platform](acknowledgeme
 <details>
 <summary>Contributors</summary>
 
-- [Christoph Läubrich ](https://github.com/laeubi)
+- [Christoph Läubrich](https://github.com/laeubi)
 </details>
 When launching a process in Eclipse you can currently choose to allocate a console for input/output.
 Via such a console, the relatively-recent support for ANSI color encoding enables integration of console applications that produce colorized output.
@@ -78,8 +78,8 @@ and then use this [example project](examples/terminal-example.zip):
 <details>
 <summary>Contributors</summary>
 
-- [Simeon Andreev ](https://github.com/trancexpress)
-- [Andrey Loskutov ](https://github.com/iloveeclipse)
+- [Simeon Andreev](https://github.com/trancexpress)
+- [Andrey Loskutov](https://github.com/iloveeclipse)
 </details>
 
 We added rudimentary searching capabilities to `Browser` widgets based on WebKit and GTK+.
@@ -110,7 +110,7 @@ Searching in the `Help` view:
 <details>
 <summary>Contributors</summary>
 
-- [Sougandh S ](https://github.com/SougandhS)
+- [Sougandh S](https://github.com/SougandhS)
 </details>
 
 A new feature has been added to enhance file and selection comparisons in Eclipse editors. 
@@ -135,7 +135,7 @@ Additionally, you can use the `Replace With → Clipboard` action to replace the
 <details>
 <summary>Contributors</summary>
 
-- [Stephan Wahlbrink ](https://github.com/wahlbrink)
+- [Stephan Wahlbrink](https://github.com/wahlbrink)
 </details>
 
 On Windows 11, menu entries that can be toggled do not show their toggle state if they also contain an image.
@@ -156,7 +156,7 @@ This is how it looks with different values of that property:
 <details>
 <summary>Contributors</summary>
 
-- [Sougandh S ](https://github.com/SougandhS)
+- [Sougandh S](https://github.com/SougandhS)
 </details>
 
 Quick Search will now support sorting of results, making it easier to navigate and analyze large result sets. 
@@ -180,8 +180,8 @@ Clicking the sorted column again will toggle the sorting order between ascending
 <details>
 <summary>Contributors</summary>
 
-- [Andrey Loskutov ](https://github.com/iloveeclipse)
-- [Sougandh S ](https://github.com/SougandhS)
+- [Andrey Loskutov](https://github.com/iloveeclipse)
+- [Sougandh S](https://github.com/SougandhS)
 </details>
 
 To make breakpoint management easier, the `Breakpoints` view now organizes breakpoints into separate groups based on their enablement status. 
