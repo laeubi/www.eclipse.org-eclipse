@@ -232,7 +232,8 @@ The remaining issues are mostly cosmetic (image naming) and can be addressed sys
 ---
 
 **Tools Created:**
-- `/tmp/validate_nn_entries.py` - Validation script
+- Validation script (currently in `/tmp/validate_nn_entries.py`)
+  - **Note:** To make this permanent, copy the script to a permanent location in the repository (e.g., `tools/` or `scripts/` directory)
 
 **Documentation Created:**
 - `NN_COMPLIANCE_REPORT.md` - Detailed analysis (10KB)

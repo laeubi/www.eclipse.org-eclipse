@@ -4,6 +4,11 @@
 
 This Python script validates New & Noteworthy (N&N) entries against the guidelines specified in `news/instructions.md`. It checks markdown files for compliance with formatting rules, naming conventions, and style guidelines.
 
+**Note:** This script is currently located in `/tmp/` for development. To use it permanently:
+1. Copy it to a permanent location in the repository (e.g., `tools/validate_nn_entries.py` or `news/scripts/validate_nn_entries.py`)
+2. Update all path references in this documentation
+3. Consider adding it to version control for team use
+
 ## Installation
 
 No installation required. The script uses only Python standard library.
@@ -118,7 +123,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Run N&N Validation
         run: python3 tools/validate_nn_entries.py
 ```
